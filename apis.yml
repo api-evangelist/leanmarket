@@ -1,22 +1,81 @@
 aid: leanmarket
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/leanmarket.png
 name: LeanMarket
-description: LeanMarket is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  LeanMarket was a mobile advertising technology company headquartered in
+  Mountain View, California, that brought real-time bidding (RTB) display
+  advertising to small and mid-sized advertisers through a self-serve platform.
+  Its pitch was transparency and operator control: advertisers could pull
+  reports showing in-depth data on every mobile app and mobile website their
+  ads appeared in — in contrast to blind ad networks — and could tweak,
+  optimize and scale campaigns themselves through a self-serve interface with
+  up-to-the-second reporting, rather than waiting on an account manager to make
+  changes. The company went through the Y Combinator Summer 2012 (S12) batch
+  and appears on the Andreessen Horowitz investment list, with seed
+  participation also reported from Initialized Capital. LeanMarket is defunct
+  and operates no live product, developer portal or API today; this profile is
+  retained for historical and network completeness.
 url: https://raw.githubusercontent.com/api-evangelist/leanmarket/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-accelerator: Y Combinator (S12)
+x-headquarters: Mountain View, California, United States
+x-status: defunct
+x-status-detail: >-
+  Listed as "Dead" in the Y Combinator company database (ycdb.co). The
+  company's original site (www.lean.com, per YCDB) is no longer a live company
+  property — it now serves an HTTrack mirror of the 2012-era LeanMarket site
+  frozen 2016-01-06, over HTTP only with no TLS. The leanmarket.com domain is
+  parked and listed for sale (307 redirect to forsale.godaddy.com, Afternic
+  nameservers, registrant behind a privacy service).
+x-api-surface: none
+x-tier: profiled
+x-tier-reason: portfolio-lead-enriched
+x-enrichment-note: >-
+  Enrichment pass 2026-07-19 found no live provider surface to harvest. Probed:
+  leanmarket.com (307 -> forsale.godaddy.com parking page), leanmarket.io /
+  leanmarket.co / leanmarket.ai (no DNS/connection), www.lean.com (HTTP 200,
+  static HTTrack mirror dated 2016-01-06 whose navigation is limited to About
+  Us, Tour, What is RTB?, Contact Us and an advertiser Sign In — no developer,
+  API or documentation section), and the GitHub organizations "leanmarket" and
+  "lean-market" (both HTTP 404). No OpenAPI, SDKs, packages, MCP server,
+  webhooks, changelog, status page or security.txt exist to capture. No
+  artifacts were fabricated; the empty result is the correct outcome.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Advertising
+- Mobile Advertising
+- AdTech
+- Real-Time Bidding
+- Programmatic Advertising
+- Display Advertising
+- Marketing
+- Y Combinator
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
