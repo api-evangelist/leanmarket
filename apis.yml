@@ -54,7 +54,7 @@ x-enrichment-note: >-
   "lean-market" (both HTTP 404). No OpenAPI, SDKs, packages, MCP server,
   webhooks, changelog, status page or security.txt exist to capture. No
   artifacts were fabricated; the empty result is the correct outcome.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
