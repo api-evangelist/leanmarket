@@ -64,12 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-LeanMarket was a mobile advertising technology company headquartered in Mountain View, California, that brought real-time bidding (RTB) display advertising to small and mid-sized advertisers through a self-serve platform. Its pitch was transparency and operator control: advertisers could pull reports showing in-depth data on every mobile app and mobile website their ads appeared in — in contrast to blind ad networks — and could tweak, optimize and scale campaigns themselves with up-to-the-second reporting, rather than waiting on an account manager.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-The company went through the Y Combinator Summer 2012 (S12) batch and appears on the Andreessen Horowitz investment list, with seed participation also reported from Initialized Capital.
+LeanMarket was a mobile advertising technology company headquartered in Mountain View, California, that brought real-time bidding (RTB) display advertising to small and mid-sized advertisers through a self-serve platform. Its pitch was transparency and operator control: advertisers could pull reports showing in-depth data on every mobile app and mobile website their ads appeared in — in contrast to blind ad networks — and could tweak, optimize and scale campaigns themselves through a self-serve interface with up-to-the-second reporting, rather than waiting on an account manager to make changes. The company went through the Y Combinator Summer 2012 (S12) batch and appears on the Andreessen Horowitz investment list, with seed participation also reported from Initialized Capital. LeanMarket is defunct and operates no live product, developer portal or API today; this profile is retained for historical and network completeness.
 
-**Status: defunct.** LeanMarket is listed as "Dead" in the Y Combinator company database. Its original site (www.lean.com) is no longer a live company property — it now serves a static HTTrack mirror of the 2012-era site frozen 2016-01-06, over HTTP only. The leanmarket.com domain is parked and listed for sale.
+**Areas:** Company · Advertising · Mobile Advertising · AdTech · Real-Time Bidding · Programmatic Advertising · Display Advertising · Marketing · Y Combinator · Defunct
 
-**API surface: none.** No OpenAPI, SDKs, packages, MCP server, webhooks, changelog, status page or security.txt exist to capture, and no GitHub organization is published. This profile is retained for historical and network completeness.
+## LeanMarket on APIs.io (historical record)
 
-Backed by: a16z
+Everything profiled for LeanMarket is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/leanmarket/](https://apis.io/providers/leanmarket/)** — or go straight to one of the APIs or properties below.
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LeanMarket: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/leanmarket/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
